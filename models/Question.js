@@ -21,7 +21,7 @@ class Question{
   }
 
   insert(){
-      const self = this 
+      const self = this
       const sql =  `INSERT INTO questions (content) VALUES (?)`
       return new Promise(function(resolve){
       resolve("Row Inserted!")
