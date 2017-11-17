@@ -12,7 +12,7 @@ class Question{
         resolve("questions table created")
       })
 
-      insert(){}
+      insert()
 
 
     })
