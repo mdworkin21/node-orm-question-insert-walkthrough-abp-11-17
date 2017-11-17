@@ -12,17 +12,16 @@ class Question{
         resolve("questions table created")
       })
 
-      insert{
-        const question = new Question("Where in the world is Carmen Sandiego?")
-      }
-
-
+    
     })
   }
 
   constructor(content){
     this.content = content
   }
+
+  insert(){}
+
 
 }
 
