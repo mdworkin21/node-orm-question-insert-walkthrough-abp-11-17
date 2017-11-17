@@ -10,7 +10,11 @@ class Question{
       
       db.run(sql, function(){
         resolve("questions table created")
-      })      
+      })
+
+      insert(){}
+
+            
     })
   }
 
