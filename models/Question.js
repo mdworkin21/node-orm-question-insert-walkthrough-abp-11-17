@@ -12,7 +12,7 @@ class Question{
         resolve("questions table created")
       })
 
-      insert(){
+      insert{
         const question = new Question("Where in the world is Carmen Sandiego?")
       }
 
